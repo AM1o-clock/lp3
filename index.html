@@ -19,7 +19,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <!-- CSS-->
     <link
       rel="stylesheet"
@@ -29,14 +28,191 @@
 
   <body>
     <header class="header">
+      <div class="header__container">
+        <h1 class="logo__header"><a href="/"><img src="./assets/image/logo_pink.png" alt="KBL KIRAMEKI BEAUTY LABO"></a></h1>
+        <div class="header__button">
+          <a href="/contact/" class="header__button--contact">お問い合わせ<span class="button__icon--arrow"></span></a>
+          <a href="/reservation/" class="header__button--reservation">カウンセリング予約<span class="header__button--small">(無料)</span><span class="button__icon--arrow"></span></a>
+        </div>
+      </div>
     </header>
 
     <main>
+      <div class="cover">
+        <div class="cover__container">
+          <div class="cover__plan"><span class="cover__plan--title">全身脱毛</span><span class="cover__plan--caption">（顔・VIO込）</span></div>
+          <div class="cover__catch">
+            <div class="cover__catch--campaign">
+              <div class="catch__campaign--period"><span class="campaign__period--now">今だけ</span><span class="campaign__period--first">初月</span></div>
+              <div class="catch__campaign--price"><span class="campaign__price--figure">0</span><span class="campaign__price--yen">円</span></div>
+            </div>
+            <div class="cover__catch--monthly"><span class="catch__monthly--figure">2,480</span><span class="catch__monthly--yen">円／月</span></div>
+            <ul class="cover__catch--point">
+              <li>通い放題</li>
+              <li>追加料金なし</li>
+              <li>安心サポート</li>
+            </ul>
+          </div>
+        </div>
+      </div>
 
+      <section class="campaign">
+        <div class="campaign__container">
+          <div class="campaign__index">今だけ<span>!</span></div>
+          <dl class="campaign__content">
+            <dt>フェイシャルコース</dt>
+            <dd><span class="campaign__content--figure">3</span><span class="campaign__content--text">回プレゼント！</span></dd>
+          </dl>
+          <div class="campaign__caption">クレンジング/洗顔/フェイスヒーリング/ 整肌</div>
+        </div>
+      </section>
+
+      <section class="trial trial--1">
+        <div class="trial__container">
+          <div class="trial__index">無料体験実施中！</div>
+          <a href="/reservation/" class="trial__button"><span>カウンセリング予約はこちら（無料）</span><span class="button__icon--arrow"></span></a>
+          <div class="trial__content">
+            <div class="trial__content--title">無料体験内容</div>
+            <p>〈脱毛体験〉V<span class="trial__content--small">(10分)or</span>両脇<span class="trial__content--small">(10分)</span></p>
+            <p>〈美顔体験〉フェイシャルトリートメント<span class="trial__content--small">(40分コース1回)</span></p>
+          </div>
+        </div>
+      </section>
+
+      <section class="point">
+        <div class="point__container">
+          <h2 class="section__title"><span class="section__title--caption"><img src="./assets/image/logo_black_KiramekiBeautyLabo.png" alt="Kirameki Beauty Labo">が選ばれる</span><span class="section__title--title">3つのポイント</span></h2>
+          <div class="point__content point__content--1">
+            <div class="point__content--title">POINT1 ｜ 通い放題</div>
+            <div class="point__content--item">
+              <p class="point__content--text">納得いくまで何度でも、追加料金なく安心して通っていただけます。</p>
+              <div class="point__item--comparison">
+                <div class="point__item">
+                  <div class="point__item--salon point__item--kbl"><img src="./assets/image/logo_pink.png" alt="KBL KIRAMEKI BEAUTY LABO"></div>
+                  <p>来店1回で全身1回</p>
+                </div>
+                <div class="point__item">
+                  <div class="point__item--salon point__item--another">Aサロン</div>
+                  <p>来店3回で全身1回</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="point__content point__content--2">
+            <div class="point__content--title">POINT2 ｜ プランが選べる</div>
+            <div class="point__content--item">
+              <p class="point__content--text">「全身プラン」と、施術部位を選べる「部分脱毛プラン」から自由にお選びいただけます。</p>
+              <div class="point__item--plan">
+                <div class="point__plan--title point__plan--total">全身プラン</div>
+                <div class="point__plan--content point__plan--total"><img src="./assets/image/plan_body_sp.png" alt="" class="no-pc"><img src="./assets/image/plan_body_pc.png" alt="" class="no-sp"></div>
+                <div class="point__plan--title point__plan--parts">部分脱毛プラン</div>
+                <ul class="point__plan--content point__plan--parts">
+                  <li><img src="./assets/image/plan_parts_1unaji.png" alt="">うなじ</li>
+                  <li><img src="./assets/image/plan_parts_2waki.png" alt="">ワキ</li>
+                  <li><img src="./assets/image/plan_parts_3oline.png" alt="">Oライン</li>
+                  <li><img src="./assets/image/plan_parts_4odeko.png" alt="">おでこ</li>
+                  <li><img src="./assets/image/plan_parts_5ago.png" alt="">あご</li>
+                  <li><img src="./assets/image/plan_parts_6faceline.png" alt="">フェイスライン</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="point__content point__content--3">
+            <div class="point__content--title">POINT3 ｜ 安心のサポート</div>
+            <div class="point__content--item">
+              <p class="point__content--text">提携医療機関のサポートがありますので、ご安心ください。</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="trial  trial--2">
+        <div class="trial__container">
+          <div class="trial__index">無料体験実施中！</div>
+          <a href="/reservation/" class="trial__button"><span>カウンセリング予約はこちら（無料）</span><span class="button__icon--arrow"></span></a>
+        </div>
+      </section>
+
+      <section class="course">
+        <div class="course__container">
+          <h2 class="section__title"><span class="section__title--caption">ほかにも選べる！</span><span class="section__title--title">2つのコース</span></h2>
+          <div class="course__content">
+            <div class="course__content--item course__item--1">
+              <div class="course__item--title">ボディコース</div>
+              <div class="course__item--content">
+                <p>ボディケアのスペシャリストが、お客様のお肌を優しく施術いたします。</p>
+                <img src="./assets/image/course_body.png" alt="">
+              </div>
+            </div>
+            <div class="course__content--item course__item--2">
+              <div class="course__item--title">フェイシャルコース</div>
+              <div class="course__item--content">
+                <p>確かな技術を持つエステティシャンが、お客様の理想のお肌に近づけます。</p>
+                <img src="./assets/image/course_facial.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="voices">
+        <div class="voices__container">
+          <h2 class="section__title"><span class="section__title--title">お客様の声</span></h2>
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="swiper__item">
+                  <div class="swiper__item--title">フェイシャルコース</div>
+                  <div class="swiper__item--content">
+                    <img src="./assets/image/voice_1.png" alt="">
+                    <div class="swiper__item--text">
+                      <div class="swiper__item--name">20代 R.Bさま/大学生</div>
+                      <p>ここにコピーが入ります。ここにコピーが入ります。ここにコピーが入ります。ここにコピーが入ります。</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="swiper__item">
+                  <div class="swiper__item--title">脱毛コース</div>
+                  <div class="swiper__item--content">
+                    <img src="./assets/image/voice_2.png" alt="">
+                    <div class="swiper__item--text">
+                      <div class="swiper__item--name">30代 N.Tさま/会社員</div>
+                      <p>納得いくまで何度も、追加料金なく安心して通うことができて大変満足しています。</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="swiper__item swiper__item--3">
+                  <div class="swiper__item--title">ボディコース</div>
+                  <div class="swiper__item--content">
+                    <img src="./assets/image/voice_3.png" alt="">
+                    <div class="swiper__item--text">
+                      <div class="swiper__item--name">20代 Y.Kさま/会社員</div>
+                      <p>ここにコピーが入ります。ここにコピーが入ります。ここにコピーが入ります。ここにコピーが入ります。</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="trial  trial--3">
+        <div class="trial__container">
+          <div class="trial__index">無料体験実施中！</div>
+          <a href="/reservation/" class="trial__button"><span>カウンセリング予約はこちら（無料）</span><span class="button__icon--arrow"></span></a>
+        </div>
+      </section>
 
     </main>
 
     <footer class="footer">
+      <a href="/" class="footer__container"><img src="./assets/image/logo_white.png" alt="KBL KIRAMEKI BEAUTY LABO"></a>
     </footer>
 
     <!-- jQuery -->

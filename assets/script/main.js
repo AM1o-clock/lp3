@@ -1,5 +1,5 @@
 const mySwiper = new Swiper('.swiper', {
-  slidesPerView: 1.25, // コンテナ内に表示させるスライド数（CSSでサイズ指定する場合は 'auto'）
+  slidesPerView: 'auto', // コンテナ内に表示させるスライド数（CSSでサイズ指定する場合は 'auto'）
   spaceBetween: 15, // スライド間の余白（px）
   centeredSlides: true, // アクティブなスライドを中央に配置する
   speed: 300, // スライドアニメーションのスピード（ミリ秒）
@@ -21,15 +21,7 @@ const mySwiper = new Swiper('.swiper', {
 
   breakpoints: { // ブレークポイント
     768: { // 画面幅768px以上で適用
-      slidesPerView: 3.8,
-    },
-
-    900: { // 画面幅900px以上で適用
-      slidesPerView: 4,
-    },
-
-    1350: { // 画面幅1350px以上で適用
-      slidesPerView: 4.445,
+      slidesPerView: 'auto',
     },
 
   },
